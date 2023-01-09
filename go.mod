@@ -1,4 +1,4 @@
-module github.com/go-nacelle/nacelle/v2
+module github.com/sourcegraph-testing/nacelle/v2
 
 go 1.16
 
@@ -12,4 +12,9 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/sys v0.0.0-20221010170243-090e33056c14 // indirect
+)
+
+replace (
+	github.com/go-nacelle/config => github.com/sourcegraph-testing/nacelle-config/v5 v5.0.0
+	github.com/go-nacelle/service => github.com/sourcegraph-testing/nacelle-service/v5 v5.0.0
 )
