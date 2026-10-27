@@ -27,3 +27,7 @@ Additional goals:
 - Impose opinions on service discovery.
 - Impose opinions on inter-process or inter-service communication.
 - Impose opinions on runtime environment, deployment, or orchestration of services.
+
+## Support
+
+For questions, bug reports, or feature requests, please [open an issue on GitHub](https://github.com/sourcegraph-testing/nacelle/issues).
